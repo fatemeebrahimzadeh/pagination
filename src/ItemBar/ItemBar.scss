@@ -1,0 +1,64 @@
+.ItemBar {
+    width: 289.51px;
+    height: 55.92px;
+    margin: 5px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .ItemBar__title {
+        font-family: "robotomedium";
+        letter-spacing: 0.4px;
+        font-size: 16px;
+        font-weight: 500;
+        margin-left: 16px;
+    }
+}
+
+.ItemBar--open {
+    background: rgba(14, 55, 163, 0.15);
+    border: 1px solid #0e37a3;
+    box-shadow: -1px 3px 5px rgba(0, 0, 0, 0.2);
+    .DesignerMenuGroup__title {
+        color: #0e37a3;
+    }
+}
+
+.ItemBars {
+    width: 90%;
+    .ItemBars__Container {
+        overflow: hidden;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        .ItemBar {
+            width: 58.37px;
+            height: 59.84px;
+            background: #e0e7e9;
+            border-radius: 15px;
+            margin: 5px;
+        }
+    }
+
+    .ItemBars__Buttons {
+        display: flex;
+        justify-content: center;
+        .Pagination__button {
+            width: 25.05px;
+            height: 25.68px;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            font-family: "poppinsregular";
+            margin: 2px;
+            background: #2a3d6f;
+            color: white;
+        }
+
+        .Pagination__button--selected {
+            background: rgba(14, 55, 163, 0.15);
+            color: #0e37a3;
+        }
+    }
+}
