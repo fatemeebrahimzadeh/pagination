@@ -1,6 +1,3 @@
 https://paginationhelperfunction.surge.sh/
 
-You can use this custom hook every time you need pagination
-this custom hook gets counts of total items and count of items that you want per page and a page number optional
-if you don't set page number it is one as the default
-and this hook gives you the index of that item which is the first one on the page and the number of pages and the count of total pages
+This repository provides a custom hook for implementing pagination in a React application. The hook takes in the total number of items and the number of items per page as arguments, as well as an optional page number (defaulting to one if not set). The hook returns the index of the first item on the current page, the total number of pages, and the count of total items. This custom hook can be used whenever pagination is needed, providing a reusable and efficient solution to implement pagination in a React application.
